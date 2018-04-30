@@ -1,0 +1,46 @@
+#case {
+	max-width: 1920px;
+	margin: 90px auto 50px;
+	padding: 50px 40px;
+}
+#case .wow {
+	width: 382px;
+	float: left;
+	margin: 0 13px 20px 0;
+	background-color: #fff;
+	-webkit-transition: border .2s ease-in-out;
+	-o-transition: border .2s ease-in-out;
+	transition: border .2s ease-in-out;
+	cursor: pointer;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#case .wow:hover div{
+	background: #A0A0A0;
+	color: #fff;
+	-webkit-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+}
+#case .wow div {
+	padding: 25px;
+	color: #333;
+}
+#case .wow div h4 {
+	font-size: 18px;
+	margin-top: 12px;
+	margin-bottom: 15px;
+	height: 22px;
+	overflow: hidden;
+}
+#case .wow div p {
+	height: 40px;
+	margin: 0 0 10px;
+	font-size: 14px;
+	overflow: hidden;
+}
+#case .wow img{
+    width: 382px;
+    height: 251px;
+}

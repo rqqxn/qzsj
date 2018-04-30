@@ -1,0 +1,120 @@
+header,section,footer{width: 100%;}
+h1{width: 110px;margin: 0 auto;height: auto; padding-top: 120px; padding-bottom: 40px; visibility: visible; animation-delay: 0s;font-size:18px;color: #959595;text-align: center;font-weight: bold;}
+h1 span{font-size: 14px;}
+/*header start*/
+.header{max-width:1920px;margin:0 auto;position: relative;}
+.header a .logo{position:absolute;left:130px;z-index: 9999;}
+.header nav{margin: 20px 0 20px 400px;float:left;}
+.header nav ul li{float:left;width:75px;text-align:center;height:40px;line-height:40px;}
+.header nav ul li a{color:#999;font-size:16px;}
+.header nav ul li a:hover{color: #231815;}
+.header .active a{color:#231815;}
+.header .phone-num { position: absolute; right: 253px; top: 12px; font-size: 16px;}
+.header .phone-num p{line-height: 30px;}
+.header .phone-num .phone_tel {letter-spacing: 0.1px;}
+.telin {color: #c70025; }
+.header .phone_cant {position: absolute; right: 100px; top: 20px;}
+.header .phone_cant a{float: left;margin-right: 12px;}
+.header .ew_icon {position: relative;}
+.header .ew_img {position: absolute;left: 12px;top: 35px;display: none;}
+/*header end*/
+
+/*lbt start*/
+.lbt{max-width:1920px;margin:0 auto;position:relative;padding:0;overflow:hidden}
+.lbt .ad{width:1920px;height:523px;overflow:hidden}
+.lbt .ad .slider{width:9600px;position:absolute;left:0;top:0}
+.lbt .ad .slider li{float:left;width:1920px;height:523px;overflow:hidden}
+.lbt .ad .slider li img{width:100%}
+.lbt .ad .num{position:absolute;left:40%;bottom:40px}
+.lbt .ad .num li{width:40px;height:2px;background:white;margin:0 5px;text-align:center;cursor:pointer;float:left}
+.lbt .ad .num li.on{background:#c01920;width: 45px; height: 6px;}
+/*lbt end*/
+
+/* 二级导航 		banner start*/
+.banner { position:relative;}
+.banner .subnav{ width: 100%; height: 50px; background: #f5f7fa;  z-index: 9; overflow: hidden;  -moz-transition: all ease-out .3; -webkit-transition: all ease-out .3; transition:all ease-out .3s;}
+.banner .subnav .subnav-k{ width:100%; height:50px;}
+.banner .subnav ul{ width: 750px; margin: 0 auto; line-height: 50px;}
+.banner .subnav ul li{ float: left; width: 150px; text-align: center; height: 50px; }
+.banner .subnav ul li:last-of-type{ border-right:none ; background-image: none;}
+.banner .subnav ul li:hover{ background: #fff;  border-bottom: 2px solid #c70025;}
+.banner .subnav ul li a{ display: inline-block; width: 100%; height: 47px;}
+.banner .subnav ul li a:hover{ border-bottom: 2px solid #c70025; }
+.banner .subnav ul li a span{ display: block; color: #010101; font-size: 14px; }
+.banner .subnav ul li a em{ color: #999999; margin-left: 13px; display: block;}
+.banner .subnav.active{ position: fixed; top: 0; width: 100%; margin-left: 0; left: 0; z-index: 99; background: #ececec; height: 64px;}
+.banner .subnav.active ul{ width:78%; float: left; padding-left: 200px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+.banner .subnav.active ul li{ height: 62px; width: 18.5%; line-height: 64px;}
+.banner .subnav.active ul li a:hover { height: 63px;}
+.banner .subnav.active .mo_down { float: left; margin-top:16px; font-size: 18px; }
+.banner .subnav ul li a em{ margin-top: 3px;}
+.banner .subnav.active .subnav-k{ width:95%; margin:0 auto; height:64px; position:relative; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+.banner .subnav .fd_logo{ display: none;  position: absolute; left:0; top: 10px;}
+.banner .subnav .fd_tel{ display: none;  position: absolute; right:0;  top: 10px;}
+.banner .subnav ul .sub_hin { background: #fff; border-bottom: 2px solid #c70025;  height: 48px; }
+/*banner end*/
+
+/*cases start*/
+.cases{max-width: 1920px;margin:0 auto;}
+.cases .c_img{position: relative;margin-bottom:162px;}
+.cases .c_img div{width: 25%; border-bottom: 1px solid #fff; overflow: hidden; border-right: 1px solid #fff; float: left; position: relative; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+.cases .c_img div img{max-width:100%;width: 100%;float: left;margin-right: 1px; margin-bottom: 1px;display: block;transition:all ease-out .3s; -moz-transition: all ease-out .3s; -webkit-transition: all ease-out .3s;}
+.cases .c_img div img:hover{transform:scale(1.2,1.2);-moz-transform:scale(1.2,1.2);-webkit-transform:scale(1.2,1.2);-o-transform:scale(1.2,1.2);overflow: hidden;}
+.cases div button{width: 120px;height:34px; line-height:34px; background: #c01920;border-radius: 3px;position: absolute; left: 45%; top: 642px;}
+.cases div button a{color:#fff;font-size:14px;}
+/*cases end*/
+
+/*news start*/
+.news{max-width: 1920px; margin: 0 auto;background: #f8f8f8;position: relative;padding-bottom:140px;}
+.news h3{width: 50px;margin: 0 auto;height: auto; padding-top: 25px; visibility: visible;font-size:14px;color: #444;text-align: center;}
+.news h3 span{font-size: 12px;color:#cbc1c4;}
+.news div{border-bottom: 1px solid #ececec;padding: 45px 20px;}
+.news div p{line-height: 30px;}
+.news div .p1{font-size: 14px; color: #8a8a8a;}
+.news div .p1 span{margin-left:36px; color: #bdbdbd;}
+.news div .p2{font-size: 16px; color: #464646;}
+.news div .p2 span{padding: 0 7px;}
+.news div .p3{font-size: 14px; color: #6a6a6a;}
+.news button{width: 120px;height:34px; line-height:34px; background: #c01920;border-radius: 3px;position: absolute; left: 45%;bottom: 95px;}
+.news button a{color:#fff;font-size:14px;}
+/*news end*/
+
+/*footer start*/
+.footer{max-width: 1920px;margin: 0 auto;background: #f3f3f3;padding: 30px 65px 40px 20px;}
+.footer div{padding-bottom: 40px;}
+.footer div>ul>li{float: left;margin-right: 90px;color: #333;font-size: 14px;line-height: 20px;font-weight: bold;}
+.footer div>ul>li>ul{margin-top: 3px;}
+.footer div>ul>li>ul>li{color: #666;font-weight: normal;}
+.footer div>ul>li>ul>li a{color: #666; font-size: 12px;}
+.footer div>ul>li>ul>li a:hover{color: #666;}
+.footer div img{padding: 40px 0 0 100px;}
+.footer p{color: #bbb;font-size: 12px;line-height: 25px;}
+.footer p a{color: #bbb;}
+.footer p a:hover{color: #bbb;}
+/*footer end*/
+
+/*go_top start*/
+/*.go_top{display: none;}*/
+#scroolTop{ display:block; cursor: pointer; width:50px; height:50px;position:fixed; z-index: 9;background: #000 url(../img/go_top.png) no-repeat left center; background-position: 0 0px; bottom:50px;  right:30px;transition: all ease-out .3s; -moz-transition: all ease-out .3s; -webkit-transition: all ease-out .3s;text-decoration:none; display:none; opacity: 0.5; filter:alpha(opacity=50); border-radius: 3px;}
+#scroolTop:hover{ background: #7899c4 url(../img/go_top.png) no-repeat left center; background-position: 0 -50px; opacity: 1; filter:alpha(opacity=100);}
+/*go_top end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

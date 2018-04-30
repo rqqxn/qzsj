@@ -1,0 +1,97 @@
+.con_tact {
+    width: 100%;
+    overflow: hidden;
+    line-height: 32px;
+}
+.con_left {
+    width: 100%;
+}
+.con_leftop {
+    color: #c70025;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.con_leftop>h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+.con_drcin {
+    position: relative;
+    height: 140px;
+    font-size: 14px;
+}
+.con_drcin_le {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.con_drcin_ri {
+    position: absolute;
+    left: 400px;
+    top: 0;
+}
+.con_center {
+    overflow: hidden;
+    margin: 50px 0 10px 0;
+}
+.con_centit {
+    float: left;
+    width: 542px;
+    height: 422px;
+    background: #c70025;
+    text-align: center;
+    line-height: 422px;
+    font-size: 30px;
+    color: #fff;
+}
+.con_cenin {
+    width: 653px;
+    float: left;
+    background: #f5f7fa;
+    height: 422px;
+}
+.con_cenin>p {
+    padding-left: 20px;
+}
+.cont_tin {
+    line-height: 25px;
+    font-size: 14px;
+}
+.cont_tit {
+    font-size: 18px;
+    color: #777;
+    line-height: 50px;
+}
+.con_down {
+    margin-bottom: 100px;
+}
+a {
+    text-decoration: none;
+    color: #333;
+    outline: none;
+}
+.con_down ul li {
+    background: #f5f7fa;
+    overflow: hidden;
+    line-height: 54px;
+    padding: 0 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.bxsibxsh>span {
+    background: url(/statics/images/qizhi/con_a.png) no-repeat 98%;
+    display: block;
+}
+.cone_ondown {
+    font-size: 14px;
+    line-height: 30px;
+    display: none;
+}
+.cont_downin {
+    padding-bottom: 20px;
+}
+
+
+
+
+

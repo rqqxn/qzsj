@@ -1,0 +1,6 @@
+.about{max-width: 1200px; margin: 120px auto 60px;padding: 0 20px;}
+.about .a_main{width: 100%; overflow: hidden;}
+.about .a_main .m_top,.about .a_center1{width: 95%;padding: 40px 36px;font-size: 12px;line-height: 22px;background: #f5f7fa; margin-bottom: 10px;}
+.about .a_center{margin: 10px 0;}
+.a_bottom {overflow: hidden;padding-bottom: 50px;}
+.a_bottom>img {float: left;margin: 0 5px;padding-bottom: 10px;}
